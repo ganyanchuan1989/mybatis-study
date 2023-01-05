@@ -4,12 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="391a6ae2-54a4-4664-b142-27a7e55076e5" name="Changes" comment="ok">
-      <change afterPath="$PROJECT_DIR$/test.sql" afterDir="false" />
+    <list default="true" id="391a6ae2-54a4-4664-b142-27a7e55076e5" name="Changes" comment="简单的增删改查">
+      <change afterPath="$PROJECT_DIR$/demo-01/src/main/resources/logback-test.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-01/src/main/resources/logback.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-01/src/main/java/org/example/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-01/src/main/java/org/example/dao/UserMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo-01/src/main/resources/mappers/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-01/src/main/resources/mappers/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-01/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-01/src/main/resources/mybatis-config.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo-01/src/test/java/MyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-01/src/test/java/MyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +36,12 @@
     <option name="myRunOnSave" value="true" />
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -56,6 +64,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
     "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "D:/workspace/java_prj/mybatis-study/demo-01/src/main/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
@@ -66,6 +75,9 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\java_prj\mybatis-study\demo-01\src\main\resources" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
@@ -73,7 +85,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MyTest.deleteUserById">
+  <component name="RunManager" selected="JUnit.MyTest.insertUser">
     <configuration name="MyTest.deleteUserById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="demo-01" />
       <option name="PACKAGE_NAME" value="" />
@@ -104,6 +116,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MyTest.testLog" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo-01" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MyTest" />
+      <option name="METHOD_NAME" value="testLog" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MyTest.updateUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="demo-01" />
       <option name="PACKAGE_NAME" value="" />
@@ -116,9 +138,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MyTest.insertUser" />
+        <item itemvalue="JUnit.MyTest.testLog" />
         <item itemvalue="JUnit.MyTest.deleteUserById" />
         <item itemvalue="JUnit.MyTest.updateUser" />
-        <item itemvalue="JUnit.MyTest.insertUser" />
         <item itemvalue="JUnit.MyTest.test01" />
       </list>
     </recent_temporary>
@@ -131,7 +154,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672900468625</updated>
-      <workItem from="1672900470252" duration="4068000" />
+      <workItem from="1672900470252" duration="8324000" />
     </task>
     <task id="LOCAL-00001" summary="ok">
       <created>1672902806667</created>
@@ -140,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672902806667</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="简单的增删改查">
+      <created>1672904583305</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1672904583305</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,7 +189,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ok" />
-    <option name="LAST_COMMIT_MESSAGE" value="ok" />
+    <MESSAGE value="简单的增删改查" />
+    <option name="LAST_COMMIT_MESSAGE" value="简单的增删改查" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
