@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.example.dao.StudentMapper">
+    <insert id="addStudent" parameterType="map" useGeneratedKeys="true" keyProperty="id">
+        insert into student(name, tid) value(#{name}, #{tid})
+    </insert>
+
+    <select id="queryAllStudent" resultMap="studentMap">
+        select t.id as tid, t.name as tname, s.id as sid, s.name as sname from student s, teacher t where s.tid = t.id;
+    </select>
+
+    <resultMap id="studentMap" type="Student">
+        <result property="id" column="sid"></result>
+        <result property="name" column="sname"></result>
+        <association property="teacher" javaType="Teacher">
+            <result property="id" column="tid"></result>
+            <result property="name" column="tname"></result>
+        </association>
+    </resultMap>
+
+</mapper>

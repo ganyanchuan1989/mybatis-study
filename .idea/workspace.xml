@@ -4,14 +4,43 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="391a6ae2-54a4-4664-b142-27a7e55076e5" name="Changes" comment="简单的增删改查">
-      <change afterPath="$PROJECT_DIR$/demo-01/src/main/resources/logback-test.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-01/src/main/resources/logback.xml" afterDir="false" />
+    <list default="true" id="391a6ae2-54a4-4664-b142-27a7e55076e5" name="Changes" comment="添加log">
+      <change afterPath="$PROJECT_DIR$/demo-01/src/main/java/org/example/dao/DeptMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-01/src/main/java/org/example/entry/Dept.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-01/src/main/resources/mappers/DeptMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-02-anno/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-02-anno/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-02-anno/src/main/java/org/example/dao/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-02-anno/src/main/java/org/example/entry/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-02-anno/src/main/java/org/example/utils/MyBatisUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-02-anno/src/main/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-02-anno/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-02-anno/src/test/java/MyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-03-lombok/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-03-lombok/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-03-lombok/src/main/java/org/example/dao/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-03-lombok/src/main/java/org/example/entry/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-03-lombok/src/main/java/org/example/utils/MyBatisUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-04-union/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-04-union/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-04-union/src/main/java/org/example/dao/StudentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-04-union/src/main/java/org/example/dao/TeacherMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-04-union/src/main/java/org/example/entry/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-04-union/src/main/java/org/example/entry/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-04-union/src/main/java/org/example/utils/MyBatisUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-04-union/src/main/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-04-union/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-04-union/src/main/resources/org/example/dao/StudentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-04-union/src/main/resources/org/example/dao/TeacherMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-04-union/src/test/java/MyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-01/log/timeFile/out.log" beforeDir="false" afterPath="$PROJECT_DIR$/demo-01/log/timeFile/out.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-01/src/main/java/org/example/dao/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-01/src/main/java/org/example/dao/UserMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo-01/src/main/resources/mappers/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-01/src/main/resources/mappers/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-01/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-01/src/main/resources/mybatis-config.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo-01/src/test/java/MyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-01/src/test/java/MyTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.sql" beforeDir="false" afterPath="$PROJECT_DIR$/test.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +57,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit4 Test Class" />
+        <option value="FxmlFile" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -64,7 +95,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "D:/workspace/java_prj/mybatis-study/demo-01/src/main/resources",
+    "last_opened_file_path": "D:/workspace/java_prj/mybatis-study/demo-04-union/src/main/resources/org/example/dao",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
@@ -76,6 +107,9 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\java_prj\mybatis-study\demo-04-union\src\main\resources\org\example\dao" />
+      <recent name="D:\workspace\java_prj\mybatis-study\demo-04-union\src\main\resources" />
+      <recent name="D:\workspace\java_prj\mybatis-study\demo-02-anno\src\main\resources" />
       <recent name="D:\workspace\java_prj\mybatis-study\demo-01\src\main\resources" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -84,53 +118,58 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example.utils" />
+      <recent name="org.example.dao" />
+      <recent name="org.example.entry" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.MyTest.insertUser">
-    <configuration name="MyTest.deleteUserById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="demo-01" />
+  <component name="RunManager" selected="JUnit.MyTest.getTeacher">
+    <configuration name="MyTest.addStudent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo-04-union" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MyTest" />
-      <option name="METHOD_NAME" value="deleteUserById" />
+      <option name="METHOD_NAME" value="addStudent" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyTest.insertUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="demo-01" />
+    <configuration name="MyTest.addTeacher" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo-04-union" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MyTest" />
-      <option name="METHOD_NAME" value="insertUser" />
+      <option name="METHOD_NAME" value="addTeacher" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyTest.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="demo-01" />
+    <configuration name="MyTest.fastJson" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo-04-union" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MyTest" />
-      <option name="METHOD_NAME" value="test01" />
+      <option name="METHOD_NAME" value="fastJson" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyTest.testLog" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="demo-01" />
+    <configuration name="MyTest.getTeacher" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo-04-union" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MyTest" />
-      <option name="METHOD_NAME" value="testLog" />
+      <option name="METHOD_NAME" value="getTeacher" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyTest.updateUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="demo-01" />
+    <configuration name="MyTest.queryAllStudent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo-04-union" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MyTest" />
-      <option name="METHOD_NAME" value="updateUser" />
+      <option name="METHOD_NAME" value="queryAllStudent" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -138,11 +177,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MyTest.insertUser" />
-        <item itemvalue="JUnit.MyTest.testLog" />
-        <item itemvalue="JUnit.MyTest.deleteUserById" />
-        <item itemvalue="JUnit.MyTest.updateUser" />
-        <item itemvalue="JUnit.MyTest.test01" />
+        <item itemvalue="JUnit.MyTest.getTeacher" />
+        <item itemvalue="JUnit.MyTest.queryAllStudent" />
+        <item itemvalue="JUnit.MyTest.fastJson" />
+        <item itemvalue="JUnit.MyTest.addStudent" />
+        <item itemvalue="JUnit.MyTest.addTeacher" />
       </list>
     </recent_temporary>
   </component>
@@ -154,7 +193,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672900468625</updated>
-      <workItem from="1672900470252" duration="8324000" />
+      <workItem from="1672900470252" duration="14974000" />
     </task>
     <task id="LOCAL-00001" summary="ok">
       <created>1672902806667</created>
@@ -170,7 +209,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672904583305</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="添加log">
+      <created>1672908879948</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1672908879948</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,10 +236,14 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ok" />
     <MESSAGE value="简单的增删改查" />
-    <option name="LAST_COMMIT_MESSAGE" value="简单的增删改查" />
+    <MESSAGE value="添加log" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加log" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/mybatis_study$MyTest_addTeacher.ic" NAME="MyTest.addTeacher Coverage Results" MODIFIED="1672971420135" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

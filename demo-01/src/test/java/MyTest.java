@@ -6,7 +6,10 @@ import org.junit.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
+import java.util.Objects;
 
 public class MyTest {
 
@@ -83,5 +86,18 @@ public class MyTest {
     public void testLog() {
         Logger logger = LoggerFactory.getLogger(this.getClass());
         logger.info("Hello");
+    }
+
+    @Test
+    public void testQueryLimit() {
+        SqlSession sqlSession = MyBatisUtils.getSqlSession();
+        UserMapper mapper = sqlSession.getMapper(UserMapper.class);
+        Map<String, Object> map = new HashMap<>();
+        map.put("startIndex", 1);
+        map.put("pageSize", 2);
+        List<User> users = mapper.queryUserByLimit(map);
+        for (User user : users) {
+            System.out.println(user);
+        }
     }
 }
